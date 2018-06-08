@@ -1,0 +1,23 @@
+/* navigationStyle 定制自己的小程序标题  */
+.logo {
+  margin-top: 51rpx;
+  width: 100%;
+  line-height: 70rpx;
+  padding-left: 20rpx;
+  box-sizing: border-box;
+  font-size: 16px;
+  margin-bottom: 10rpx;
+  text-align: center;
+}
+.logo.pure {
+  color: #ff7887;
+}
+.pink {
+  color: #ff7887;
+}
+.pure {
+  color: #5ac3ff;
+}
+.normal {
+  color: #333;
+}

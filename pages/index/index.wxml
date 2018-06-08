@@ -1,0 +1,10 @@
+<!--index.wxml-->
+<!--指定属性值时则对应使用连字符写法  -->
+<view class='logo normal' hover-class='pure' hover-start-time="50" hover-stay-time='2000' bindtap=''>app-components</view>
+<!-- 数据双向绑定  -->
+  <!-- <app-input name-text="" phone-text="" remarks-text="" bind:childEvent="editValue"></app-input>   -->
+<!-- 滚动相关  -->
+ <!-- <app-tabs></app-tabs>  -->
+<!-- swiper  -->
+ <!-- <app-swiper></app-swiper>  -->
+<rich-text node="['']"></rich-text>

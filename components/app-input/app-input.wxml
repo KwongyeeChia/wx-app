@@ -1,0 +1,13 @@
+<!--components/wx-header/wx-header.wxml-->
+<view class='input-groups'>
+<!--应用于数据绑定时采用驼峰写法  -->
+  <view class='input-wrapper'>
+    <input placeholder='请输入姓名' data-index="{{0}}" bindinput='_getValue' value='{{nameText}}'></input>
+  </view>
+  <view class='input-wrapper'>
+    <input placeholder='请输入电话号码' data-index="{{1}}" bindinput='_getValue' value='{{phoneText}}'></input>
+  </view>
+  <view class='input-wrapper'>
+    <input placeholder='备注' data-index="{{2}}" bindinput='_getValue' value='{{remarksText}}'></input>
+  </view>
+</view>

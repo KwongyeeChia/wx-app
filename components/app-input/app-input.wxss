@@ -1,0 +1,15 @@
+/* components/wx-header/wx-header.wxss */
+.input-wrapper {
+  height: 59px;
+  line-height: 59px;
+  margin-bottom: 10px;
+}
+.input-wrapper input {
+  border: 1rpx solid #01af63;
+  border-radius: 4rpx;
+  height: 100%;
+  width: 100%;
+  box-sizing: border-box;
+  padding-left: 20px;
+  font-size: 16px;
+}

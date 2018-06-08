@@ -1,0 +1,28 @@
+/* components/wx-tabs/wx-tabs.wxss */
+.gallery-menu {
+  width: 100%;
+  white-space: nowrap;
+}
+.gallery-menu .gallery-item {
+  display: inline-block;
+  width: 375rpx;
+  height: 100rpx;
+  color: #5ac3ff;
+  text-align: center;
+  line-height: 100rpx;
+}
+.gallery-wrap {
+  /* height: 600rpx; */
+  border: 1rpx solid #5ac3ff;
+  padding: 10rpx;
+  box-sizing: border-box;
+  width: 100%;
+  white-space: nowrap; 
+}
+.gallery-wrap .gallery-item {
+  width: 100%; 
+  height: 600rpx;
+  display: inline-block;
+  border: 1rpx solid #ff7887;
+  border-radius: 4rpx;
+}

@@ -1,0 +1,13 @@
+<!--components/app-swiper/app-swiper.wxml-->
+<view class='swiper-menu'>
+  <view class='menu-item {{cur_item==0? "pink": ""}}' bindtap='tap_tab' data-index="0">吃</view>
+  <view class='menu-item {{cur_item==1? "pink": ""}}' bindtap='tap_tab' data-index="1">喝</view>
+  <view class='menu-item {{cur_item==2? "pink": ""}}' bindtap='tap_tab' data-index="2">嫖</view>
+  <view class='menu-item {{cur_item==3? "pink": ""}}' bindtap='tap_tab' data-index="3">毒</view>
+</view>
+<swiper current='{{cur_item}}' circular='false' bindchange='swiper_item'>
+<swiper-item>1</swiper-item>
+<swiper-item>2</swiper-item>
+<swiper-item>3</swiper-item>
+<swiper-item>4</swiper-item>
+</swiper>

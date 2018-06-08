@@ -1,0 +1,7 @@
+{
+  "usingComponents": {
+    "app-input": "/components/app-input/app-input",
+    "app-tabs": "/components/app-tabs/app-tabs",
+    "app-swiper": "/components/app-swiper/app-swiper"
+  }
+}
